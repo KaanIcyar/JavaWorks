@@ -1,0 +1,26 @@
+public class Main {
+
+    public static void NumberInWorld(int number){
+        switch (number){
+            case 1:
+                System.out.println("ONE");
+                break;
+            case 2:
+                System.out.println("TWO");
+                break;
+            case 3:
+                System.out.println("THREE");
+                break;
+            default:
+                System.out.println("OTHER");
+                break;
+        }
+
+
+    }
+    public static void main(String[] args) {
+        NumberInWorld(3);
+        NumberInWorld(5);
+
+    }
+}
